@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Mexico Bajo Par</title>
+<link rel="shortcut icon" href="img/favico.png">
+<link href="css/estilos.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript"
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js">
+
+</script>
+	<script type="text/javascript" src="js/bookflip.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+			$(document).ready(function(){
+				$("#barra li").prepend("<span></span>");
+				
+				$("#barra li").each(function(){
+					var linkText = $(this).find("a").html();
+					$(this).find("span").show().html(linkText);
+				});
+				
+				$("#barra li").hover(function(){
+					$(this).find("span").stop().animate({
+						marginTop: "-40"}, 250);
+				}, function(){
+					$(this).find("span").stop().animate({
+						marginTop:"0"
+					},250);
+				});
+			});
+		</script>
+
+<style type="text/css" media="screen">
+
+			ul#barra li{
+				overflow:hidden;
+				height:40px;
+			}
+			ul#barra a, ul#barra span{
+				padding:10px 10px;
+				float:left;
+				text-decoration: none;
+				color:#fff;
+				clear:both;
+ 				line-height:20px;
+			}
+			ul#barra a{
+				color: #333;
+				background-position: left bottom;
+				background:url(img/cuadro1.jpg);
+				text-shadow: #191919;
+				text-decoration: blink;
+			}
+		</style>
+</head>
+
+<body>
+<div id="contenedorGeneral">
+
+	<div id="menu">
+		
+		<div id="logo"><br/>
+			
+			<a><object type="application/x-shockwave-flash" data="swf/logoanimado.swf" width="461px" height="45px">
+			    <param name="movie" value="swf/logoanimado.swf" />
+			    <param name="quality" value="high"/>
+			    <param name="wmode" value="transparent"/>
+			</object>
+			</a>
+		</div>
+				<ul id="barra">
+					<li><a href="html/contacto.html" id="botonNosotros">Contacto</a></li>
+					<li><a href="html/foro.html" id="botonNAnteriores">Foro</a></li>
+					<li><a href="html/calendario.html" id="botonCalendario">Calendario</a></li>
+					<li><a href="html/num.html" id="botonForo">Num.Anteriores</a></li>
+					<li><a href="html/nosotros.html" id="botonContacto">Nosotros</a></li>
+				</ul>
+				<a id="barra1">Revista</a>
+		<div class="clear"></div>
+		
+	</div>
+	
+	<div id="infoContenido">
+		
+		<div id="banner">
+			<a><object type="application/x-shockwave-flash" data="swf/banner/BANNERPUBLI.swf" width="200px" height="590px" style="margin-top:10px; margin-left:10px;">
+			    <param name="movie" value="swf/banner/BANNERPUBLI.swf" />
+			    <param name="quality" value="high"/>
+			    <param name="wmode" value="transparent"/>
+			</object>
+			</a>
+		
+		</div>
+		<div id="infoContenidoPrincipal">
+			
+			<div id="myBook" style="display:none; background-color:#191919;">				
+				<div name="Portada" style="background:url('revista/1.jpg');"></div>
+				<div name="Pag. 1" style="background:url('revista/2.jpg');"></div>
+				<div name="Pag. 2" style="background:url('revista/3.jpg');"></div>
+				<div name="Pag. 3" style="background:url('revista/4.jpg');"></div>	
+				<div name="Pag. 4" style="background:url('revista/5.jpg');"></div>
+				<div name="Pag. 5" style="background:url('revista/6.jpg');"></div>
+				<div name="Pag. 6" style="background:url('revista/7.jpg');"></div>
+				<div name="Pag. 7" style="background:url('revista/8.jpg');"></div>
+				<div name="Pag. 8" style="background:url('revista/9.jpg');"></div>
+				<div name="Pag. 9" style="background:url('revista/10.jpg');"></div>	
+				<div name="Pag. 10" style="background:url('revista/11.jpg');"></div>
+				<div name="Pag. 11" style="background:url('revista/12.jpg');"></div>	
+				<div name="Pag. 12" style="background:url('revista/13.jpg');"></div>	
+				<div name="Pag. 13" style="background:url('revista/14.jpg');"></div>
+				<div name="Pag. 14" style="background:url('revista/15.jpg');"></div>
+				<div name="Pag. 15" style="background:url('revista/16.jpg');"></div>
+				<div name="Pag. 16" style="background:url('revista/17.jpg');"></div>
+				<div name="Pag. 17" style="background:url('revista/18.jpg');"></div>
+				<div name="Pag. 18" style="background:url('revista/19.jpg');"></div>	
+				<div name="Pag. 19" style="background:url('revista/20.jpg');"></div>
+				<div name="Pag. 20" style="background:url('revista/21.jpg');"></div>
+				<div name="Pag. 21" style="background:url('revista/22.jpg');"></div>
+				<div name="Pag. 22" style="background:url('revista/23.jpg');"></div>
+				<div name="Pag. 23" style="background:url('revista/24.jpg');"></div>
+				<div name="Pag. 24" style="background:url('revista/25.jpg');"></div>
+				<div name="Pag. 25" style="background:url('revista/26.jpg');"></div>
+				<div name="Pag. 26" style="background:url('revista/27.jpg');"></div>
+				<div name="Pag. 27" style="background:url('revista/28.jpg');"></div>
+				<div name="Pag. 28" style="background:url('revista/29.jpg');"></div>	
+				<div name="Pag. 29" style="background:url('revista/30.jpg');"></div>
+				<div name="Pag. 30" style="background:url('revista/31.jpg');"></div>
+				<div name="Pag. 31" style="background:url('revista/32.jpg');"></div>	
+				<div name="Pag. 32" style="background:url('revista/33.jpg');"></div>	
+				<div name="Pag. 33" style="background:url('revista/34.jpg');"></div>
+				<div name="Pag. 34" style="background:url('revista/35.jpg');"></div>
+				<div name="Pag. 35" style="background:url('revista/36.jpg');"></div>
+				<div name="Pag. 36" style="background:url('revista/37.jpg');"></div>
+				<div name="Pag. 36" style="background:url('revista/38.jpg');"></div>
+				<div name="Pag. 36" style="background:url('revista/39.jpg');"></div>
+
+				<div name="Contraportada" style="background:url('revista/40.jpg');"></div>
+				
+			</div>
+				
+			<div id="pagina">
+				<input  style="background-color:#333; color:#FFF; border:none;" type=button  class="buttons" value=prev onclick="goprev();">
+				<input style="background-color:#333; color:#FFF; border:none;"  type=button class="buttons" value=next onclick="gonext();"> 
+				<select id="flipSelect" style="display:none; background-color:#333; color:#FFF; border:none;"></select>
+				<a href="documentos/MBPFebrero1.zip"  target="_blank" >Descargar PDF</a>
+			</div>
+		</div>
+		
+
+	</div>
+	<div class="clear"></div>
+	
+
+	<div id="pie"></div>
+</div>
+<script type="text/javascript">
+var myPageW=382;
+var myPageH=574; 
+var pageBorderWidth=0;
+var pageBorderColor="#191919;"; 
+var pageBorderStyle="solid"; 
+
+var pSpeed=20; 
+var pSound=false;
+
+var showBinder=false; 
+var binderImage = "parchmentring2.gif";
+var binderWidth = 20; 
+var numPixelsToMove = 300;
+
+
+var selectNavigation=true; 
+allowPageClick=true; 
+doIncrementalAutoFlip = false; 
+
+ini();
+
+</script>
+</body>
+
+</html>

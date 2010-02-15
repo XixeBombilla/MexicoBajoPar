@@ -1,0 +1,91 @@
+body {
+	
+	background-color:#333;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:0px;
+	
+	
+}
+
+a:link {
+  
+  color:#FFF;
+  text-decoration: none;
+}
+
+#textoInfo{color:#FFF; font-size:10pt; text-align:justify;}
+
+#contenedorGeneral{
+    background-color:#191919;
+    width: 1000px;
+    height: 720px;
+    margin-left: auto;
+    margin-right:auto;
+    -moz-box-shadow: 0 0 2em black;
+    -webkit-box-shadow: 0 0 2em black;
+    margin-top:10px;
+}
+
+#infoContenidoPrincipal{
+	
+float: right;
+margin-right:10px;
+margin-left:200px;
+margin-top:-490px;
+}
+	
+#logo{
+    width:461px;
+    height:45px;
+    margin-left:20px;    
+}     
+
+#barra1{
+    padding:11px 10px;
+    text-decoration:none;
+    display:inline;
+    float: right;
+    color: #FFF;
+    font-size:11pt;
+    background:url(../img/cuadro1.jpg);
+   
+    color:#333;
+}
+
+#banner{ height: 500px; width:200px; }
+        
+#barra{
+    padding:0;
+    text-decoration:none;
+    display:inline;
+    float: right;
+    color: #FFF;
+    font-size:11pt;
+    margin:0;
+}
+
+#barra li {	
+	float: right;
+	list-style: none;
+}
+
+
+.clear{clear:both;}    
+        
+#menu{
+	background-image:url(../img/mexicob1.jpg);
+	height:85px;
+}
+
+#pagina{float:right;}
+	
+#infoContenido{
+	height:510px;
+	float:right;
+	width:1000px;
+	}
+	
+#pie{
+	background-image:url(../img/mexicob1.jpg);
+	height:20px;
+	margin-top:100px;
