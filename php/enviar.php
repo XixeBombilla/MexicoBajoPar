@@ -91,13 +91,7 @@
 						<p style="text-align:right; text-shadow: #333;">contacto@mexicobajopar.com</p>
 						<p style="text-align:right; text-shadow: #333; color:#ccc333;">www.mexicobajopar.com</p>
 						<p>
-									<form id="contacto" name="contacto" method="post" >
-												<p><label>Nombre<br /><input name="nombre" type="text" id="nombre" size="30"/></label></p>
-												<p><label>Empresa<br /><input name="empresa" type="text" id="empresa" size="30"/></label></p>
-												<p><label>E-mail<br /><input name="mail" type="text" id="mail" size="30"/></label></p>
-												<p><label>Mensaje<br />
-												<textarea name="mensaje" cols="40" rows="8" id="mensaje"></textarea></label></p>
-												<p><input type="submit" name="Submit" value="Enviar"/>
+									
                                                                                                     <?php
 
                                                                                                         $nombre = $_POST['nombre'];
@@ -122,8 +116,7 @@
                                                                                                         echo "Mensaje enviado Correctamente";
                                                                                                         
                                                                                                         ?>
-												</p>
-									</form>
+								
 						</p>
 					
 			</ul>
